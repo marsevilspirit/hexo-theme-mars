@@ -1,25 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=<%= config.language %>>
     <%- partial('_partial/head') %>
 
-<body>
-    <header>
-        <h1>marsevilspirit's blog</h1>
-    </header>
+    <body>
+        <%- partial('_partial/header') %>
 
-    <main>
-        <p>这里是布局</p>
-        <div>
-            <%- include("index.ejs") %>
-        </div>
-        <div>
-            <%- include("post.ejs") %>
-        </div>
-    </main>
+        <main>
+            <p>这里是布局</p>
+            <div>
+                <%- include("index.ejs") %>
+            </div>
+            <div>
+                <%- include("post.ejs") %>
+            </div>
+        </main>
 
-    <footer>
-        <p>&copy; 2023 marsevilspirit</p>
-    </footer>
-</body>
+        <%- partial('_partial/footer') %>
+    </body>
 
 </html>
