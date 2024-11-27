@@ -3,17 +3,12 @@
     <%- partial('_partial/head') %>
 
     <body>
-        <%- partial('_partial/header') %>
-
-        <main>
-            <p>这里是布局</p>
-            <div>
-                <%- include("index.ejs") %>
+        <div class="wrapper">
+            <%- partial('_partial/header') %>
+            <div class="content">
+                <%- body %>
             </div>
-            <div>
-                <%- include("post.ejs") %>
-            </div>
-        </main>
+        </div>
 
         <%- partial('_partial/footer') %>
     </body>

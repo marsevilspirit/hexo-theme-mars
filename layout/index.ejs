@@ -1,1 +1,7 @@
-index test test test test
+<ul class="posts">
+    <% page.posts.each(function (post) { %>
+        <li>
+            <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+        </li>
+    <% }) %>
+</ul>
