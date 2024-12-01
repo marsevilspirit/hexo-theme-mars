@@ -122,11 +122,13 @@ blockquote footer {
 ol,
 ul {
   -webkit-padding-start: 5%;
-  padding-left: 2em;
+  padding-left: 1em;
 }
 
 li {
   padding: 0.5rem 0;
+  padding-top: unset;
+  padding-bottom: unset;
 }
 
 a,
