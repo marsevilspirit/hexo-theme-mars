@@ -242,7 +242,7 @@ div.table-wrapper {
 
 table {
   border-collapse: collapse;
-  border: 1px solid var(--foreground);
+  border: 0px solid var(--foreground);
   margin: 0.75rem;
   font-variant-numeric: tabular-nums lining-nums;
 }
