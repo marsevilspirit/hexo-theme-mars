@@ -1,7 +1,7 @@
-highlight-background = #2d2d2d
+highlight-background = #ffffff // 背景颜色
 highlight-current-line = #393939
 highlight-selection = #515151
-highlight-foreground = #cccccc
+highlight-foreground = #000000
 highlight-comment = #999999
 highlight-red = #f2777a
 highlight-orange = #f99157
@@ -19,10 +19,10 @@ $code-block
   border-width: 1px 0
   overflow: auto
   color: highlight-foreground
-  line-height: 12.8px * 1.6em
+  line-height: 24px // code 行间距
 
 $line-numbers
-  color: #666
+  color: #000
   font-size: 0.85em
 
 .post-md
@@ -48,7 +48,7 @@ $line-numbers
       margin: 0
       width: auto
       padding: 0px 0 !important
-      border-bottom: none !important
+      border-bottom: 1 solid #000 !important // code的底边边框
       background: none !important
     td
       border: none

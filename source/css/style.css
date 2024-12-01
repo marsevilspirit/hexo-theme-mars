@@ -286,7 +286,7 @@ pre::-webkit-scrollbar {
 pre code,
 .code {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  line-height: 1.6;
+  line-height: 1;
   word-wrap: normal;
 }
 
